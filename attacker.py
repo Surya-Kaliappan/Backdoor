@@ -93,7 +93,7 @@ while True:
 				cmd_list = cmd.split(" ")
 				connection.send(cmd.encode())
 				file_name = []
-				for k in range(1,len(cmd_list)):
+				for m in range(1,len(cmd_list)):
 					file_name.append(cmd_list[m])
 				file_name = ' '.join(file_name)
 				
